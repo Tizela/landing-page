@@ -2,32 +2,52 @@
 @tailwind components;
 @tailwind utilities;
 
-:root {
-  --foreground-rgb: 0, 0, 0;
-  --background-start-rgb: 214, 219, 220;
-  --background-end-rgb: 255, 255, 255;
+@font-face {
+  font-family: "Gilroy";
+  src: url("/app/ui/fonts/gilroy-bold/Gilroy-Regular.ttf") format(".ttf");
+  font-weight: 400;
+}
+@font-face {
+  font-family: "Gilroy";
+  src: url("/app/ui/fonts/gilroy-bold/Gilroy-Light.ttf") format(".ttf");
+  font-weight: 300;
+}
+@font-face {
+  font-family: "Gilroy";
+  src: url("/fonts/gilroy-bold/Gilroy-Medium.ttf") format(".ttf");
+  font-weight: 500;
+}
+@font-face {
+  font-family: "Gilroy";
+  src: url("/fonts/gilroy-bold/Gilroy-Bold.ttf") format(".ttf");
+  font-weight: 600;
 }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --foreground-rgb: 255, 255, 255;
-    --background-start-rgb: 0, 0, 0;
-    --background-end-rgb: 0, 0, 0;
-  }
+.gilroy {
+  font-family: "Gilroy";
 }
 
-body {
-  color: rgb(var(--foreground-rgb));
-  background: linear-gradient(
-      to bottom,
-      transparent,
-      rgb(var(--background-end-rgb))
-    )
-    rgb(var(--background-start-rgb));
+@font-face {
+  font-family: "BR Firma";
+  src: url("/fonts/br-firma/BR\ Firma\ Bold.otf") format("otf");
+  font-weight: 600;
+}
+@font-face {
+  font-family: "BR Firma";
+  src: url("/fonts/br-firma/BR\ Firma\ Light.otf") format("otf");
+  font-weight: 300;
+}
+@font-face {
+  font-family: "BR Firma";
+  src: url("/fonts/br-firma/BR\ Firma\ Regular.otf") format("otf");
+  font-weight: 400;
+}
+@font-face {
+  font-family: "BR Firma";
+  src: url("/fonts/br-firma/BR\ Firma\ Medium.otf") format("otf");
+  font-weight: 500;
 }
 
-@layer utilities {
-  .text-balance {
-    text-wrap: balance;
-  }
+.br-firma {
+  font-family: "BR Firma";
 }

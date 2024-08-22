@@ -3,7 +3,7 @@ import Image from "next/image";
 export default function Prompt() {
   return (
     <div className="py-[4%] px-[5%] md:flex justify-between items-center">
-      <div className="hidden">
+      <div className="hidden md:block">
         <Image src="/images/why.png" width={500} height={300} alt="why" />
       </div>
       <div className="text-center md:text-left">

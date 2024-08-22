@@ -4,22 +4,22 @@
 
 @font-face {
   font-family: "Gilroy";
-  src: url("/app/ui/fonts/gilroy-bold/Gilroy-Regular.ttf") format(".ttf");
+  src: url("/app/ui/fonts/gilroy-bold/Gilroy-Regular.ttf") format("truetype");
   font-weight: 400;
 }
 @font-face {
   font-family: "Gilroy";
-  src: url("/app/ui/fonts/gilroy-bold/Gilroy-Light.ttf") format(".ttf");
+  src: url("/app/ui/fonts/gilroy-bold/Gilroy-Light.ttf") format("truetype");
   font-weight: 300;
 }
 @font-face {
   font-family: "Gilroy";
-  src: url("/fonts/gilroy-bold/Gilroy-Medium.ttf") format(".ttf");
+  src: url("/fonts/gilroy-bold/Gilroy-Medium.ttf") format("truetype");
   font-weight: 500;
 }
 @font-face {
   font-family: "Gilroy";
-  src: url("/fonts/gilroy-bold/Gilroy-Bold.ttf") format(".ttf");
+  src: url("/fonts/gilroy-bold/Gilroy-Bold.ttf") format("truetype");
   font-weight: 600;
 }
 
@@ -29,22 +29,22 @@
 
 @font-face {
   font-family: "BR Firma";
-  src: url("/fonts/br-firma/BR\ Firma\ Bold.otf") format("otf");
+  src: url("/fonts/br-firma/BR\ Firma\ Bold.otf") format("opentype");
   font-weight: 600;
 }
 @font-face {
   font-family: "BR Firma";
-  src: url("/fonts/br-firma/BR\ Firma\ Light.otf") format("otf");
+  src: url("/fonts/br-firma/BR\ Firma\ Light.otf") format("opentype");
   font-weight: 300;
 }
 @font-face {
   font-family: "BR Firma";
-  src: url("/fonts/br-firma/BR\ Firma\ Regular.otf") format("otf");
+  src: url("/fonts/br-firma/BR\ Firma\ Regular.otf") format("opentype");
   font-weight: 400;
 }
 @font-face {
   font-family: "BR Firma";
-  src: url("/fonts/br-firma/BR\ Firma\ Medium.otf") format("otf");
+  src: url("/fonts/br-firma/BR\ Firma\ Medium.otf") format("opentype");
   font-weight: 500;
 }
 

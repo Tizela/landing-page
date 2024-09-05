@@ -17,24 +17,24 @@ export default function Navbar() {
         <div className="bg-[#1142A0] w-full flex justify-between items-center px-[6%] md:px-[5%] py-[3.5%] md:py-[2%] gilroy">
           <Image src="/icons/logo.svg" alt="logo" width={100} height={100} />
           <div className="text-[16px] font-[500] text-white hidden lg:inline">
-            {/* <Link
-              className="mx-[5%] hover:underline active:underline"
+            <Link
+              className="mx-[6%] hover:underline active:underline"
               href={"/"}
             >
               Home
             </Link>
             <Link
-              className="mx-[5%] hover:underline active:underline"
+              className="mx-[6%] hover:underline active:underline"
               href={"/about"}
             >
               About
             </Link>
             <Link
-              className="mx-[5%] hover:underline active:underline"
-              href={"/contact"}
+              className="mx-[6%] hover:underline active:underline"
+              href={"/faqs"}
             >
-              Contact
-            </Link> */}
+              FAQs
+            </Link>
           </div>
           <div className="hidden lg:inline">
             <Button text="Join Waitlist" link="/waitlist" />
@@ -71,15 +71,15 @@ export default function Navbar() {
 
           <div className="bg-white flex justify-center items-center mt-[60px]">
             <div className="text-center gilroy font-[500] text-[16px] text-[#575757]">
-              {/* <Link className="block my-3" href={"/"}>
+              <Link className="block my-3" href={"/"}>
                 Home
               </Link>
               <Link className="block my-3" href={"/about"}>
                 About
               </Link>
-              <Link className="block my-3" href={"/contact"}>
-                Contact
-              </Link> */}
+              <Link className="block my-3" href={"/faqs"}>
+                FAQs
+              </Link>
             </div>
           </div>
 

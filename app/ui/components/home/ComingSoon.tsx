@@ -2,18 +2,18 @@ import Image from "next/image";
 
 export default function ComingSoon() {
   return (
-    <div className="bg-[#1142A0] mt-[10px] pt-[2%] px-[5%] text-white">
+    <div className="bg-[#1142A0] mt-[10px] pt-[2%] text-white">
       <div className="md:flex justify-between items-center">
         <Image
           src="/images/coming-soon.png"
           alt="coming soon"
-          width={500}
-          height={500}
-          className="hidden md:block"
+          width={520}
+          height={520}
+          className="hidden md:block md:mr-[1.5%]"
         />
-        <div className="mt-[100px]">
+        <div className=" ml-[5.5%] mt-[100px]">
           <p className="text-center font-[400] md:text-[40px] text-[24px] leading-[33.5px]">
-            Tizela is coming Soon! Unlock every experience.
+            Coming Soon! Unlock every experience
           </p>
           <p className="text-center font-[500] text-[16px] gilroy leading-[24px] my-3">
             At Tizela, we simplify travel with seamless bookings for stays, car
@@ -27,10 +27,11 @@ export default function ComingSoon() {
           </div>
         </div>
         <Image
-          src="/images/coming-soon.png"
+          src="/images/coming-soon-2.png"
           alt="coming soon"
-          width={500}
-          height={500}
+          width={800}
+          height={800}
+          className="mt-[19px]"
         />
       </div>
     </div>

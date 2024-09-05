@@ -27,25 +27,25 @@ export default function Features() {
   ];
   return (
     <div>
-      <div className=" mt-[40px] flex justify-center items-center">
-        <div className="text-center">
+      <div className=" mt-[40px] md:flex justify-center items-center">
+        <div className="md:text-center px-[7%] md:px-0">
           <p className="text-[#1143A0] text-[16px] leading-[24px] gilroy font-[600]">
             Features
           </p>
           <p className="text-[#272727] text-[40px] my-1.5 leading-[44px]">
             Unlock every experience
           </p>
-          <p className="font-[500] gilroy text-[#575757] text-[16px] leading-[24px] w-[694px] text-center">
+          <p className="font-[500] gilroy text-[#575757] text-[16px] leading-[24px] w-[327px] md:w-[694px] md:text-center">
             At Tizela, we simplify travel with seamless bookings for stays, car
             rentals, and boat cruises—all in one place.
           </p>
         </div>
       </div>
 
-      <div className="flex justify-between items-center px-[5%]">
+      <div className="md:flex justify-between items-center px-[5%]">
         <div className="flex flex-col my-6 px-[4%]">
           {features.map((feature) => (
-            <div className={`${feature.border} w-[600px] my-1`}>
+            <div className={`${feature.border} w-[299px] md:w-[600px] my-1`}>
               <div
                 key={feature.id}
                 className="px-[6%] md:px-[5%] py-[2.5%] md:py-[1.5%] "

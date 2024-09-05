@@ -15,7 +15,7 @@ export default function Hero() {
           </p>
           <Button text="Join Waitlist" link="/waitlist" />
         </div>
-        <div className="flex mt-[15px] md:mt-0 mb-[10px] md:mb-0">
+        <div className="hidden md:flex mt-[15px] md:mt-0 mb-[10px] md:mb-0">
           <div className="mr-[16px] md:relative">
             <Image
               src="/images/hero-car.png"
@@ -39,6 +39,30 @@ export default function Hero() {
             height={300}
             className="border-transparent rounded-[13.65px]"
           />
+        </div>
+
+        <div className="mt-[15px] flex justify-between items-center md:hidden">
+          <div className="w-[50%] flex items-end">
+            <div className="">
+              <img
+                src="/images/hero-car.png"
+                alt=""
+                className="w-[121.89px] h-[126.66px] ml-[18%] my-3 rounded-[6.94px] border-transparent"
+              />
+              <img
+                src="/images/hero-stay.png"
+                alt=""
+                className="w-[154.85px] h-[148.34px] rounded-[6.94px] border-transparent"
+              />
+            </div>
+          </div>
+          <div className="w-[50%]">
+            <img
+              src="/images/hero-cruise.png"
+              alt=""
+              className="w-[164.83px] h-[304.06px] rounded-[6.94px] border-transparent"
+            />
+          </div>
         </div>
 
         {/* <Image src="/icons/overlay.svg" alt="hero" fill className="" /> */}

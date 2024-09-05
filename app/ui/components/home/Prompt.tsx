@@ -11,13 +11,12 @@ export default function Prompt() {
           Why Use Tizela?
         </p>
         <p className="br-firma text-[#272727] text-[13px] md:text-[16px] font-[300] mt-[15px] w-[100%] md:w-[500px]">
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Possimus
-          harum facere quisquam expedita non dolorem obcaecati temporibus totam
-          sed? Alias, hic eveniet. Reiciendis ad beatae aspernatur, eos soluta
-          minus aperiam. Lorem ipsum dolor sit amet consectetur adipisicing
-          elit. Cumque, quos?Lorem ipsum dolor sit, amet consectetur adipisicing
-          elit. Corrupti laudantium magnam accusantium, consequuntur doloremque
-          maxime!
+          Tizela is your go-to platform for all travel needs, combining
+          accommodations, car rentals, and boat cruises in one place. We offer
+          personalized recommendations, a user-friendly experience, and verified
+          listings to ensure you get the best options. With flexible booking,
+          24/7 customer support, and a seamless process, Tizela makes planning
+          your trips easy and enjoyable.
         </p>
       </div>
       <div className="block md:hidden mt-[15px]">

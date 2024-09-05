@@ -18,11 +18,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body className={paytone.className}>
-        <div className="relative">
-          <Navbar />
-          {children}
-          <Footer />
-        </div>
+        <div className="relative">{children}</div>
       </body>
     </html>
   );

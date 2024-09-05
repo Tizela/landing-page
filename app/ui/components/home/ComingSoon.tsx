@@ -16,9 +16,8 @@ export default function ComingSoon() {
             Tizela is coming Soon! Unlock every experience.
           </p>
           <p className="text-center font-[500] text-[16px] gilroy leading-[24px] my-3">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit.
-            Consequuntur maiores iusto minima ipsam aut deleniti praesentium
-            illum impedit corrupti fugit.
+            At Tizela, we simplify travel with seamless bookings for stays, car
+            rentals, and boat cruises—all in one place.
           </p>
 
           <div className="flex justify-center items-center">

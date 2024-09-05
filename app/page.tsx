@@ -6,15 +6,20 @@ import ComingSoon from "./ui/components/home/ComingSoon";
 import Destinations from "./ui/components/home/Destinations";
 import Prompt from "./ui/components/home/Prompt";
 
+import Navbar from "./ui/components/navbar";
+import Footer from "./ui/components/footer";
+
 export default function Home() {
   return (
     <div className="">
+      <Navbar />
       <Hero />
       <Offerings />
       <Destinations />
 
       <ComingSoon />
       <Prompt />
+      <Footer />
     </div>
   );
 }

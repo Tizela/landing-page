@@ -16,20 +16,20 @@ export default function Hero() {
           <Button text="Join Waitlist" link="/waitlist" />
         </div>
         <div className="flex mt-[15px] md:mt-0 mb-[10px] md:mb-0">
-          <div className="mr-[16px] relative">
+          <div className="mr-[16px] md:relative">
             <Image
               src="/images/hero-car.png"
               alt="Car Rental"
               width={200}
               height={200}
-              className="border-transparent rounded-[13.65px] absolute right-0"
+              className="border-transparent rounded-[13.65px] md:absolute right-0"
             />
             <Image
               src="/images/hero-stay.png"
               alt="Stay Rental"
               width={300}
               height={300}
-              className="mt-[115%] md:mt-[75%]"
+              className="mt-[4%] md:mt-[75%]"
             />
           </div>
           <Image

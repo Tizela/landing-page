@@ -11,7 +11,7 @@ export default function ComingSoon() {
           height={520}
           className="hidden md:block md:mr-[1.5%]"
         />
-        <div className=" ml-[5.5%] mt-[100px]">
+        <div className="md:ml-[5.5%] mt-[100px]">
           <p className="text-center font-[400] md:text-[40px] text-[24px] leading-[33.5px]">
             Coming Soon! Unlock every experience
           </p>
@@ -31,7 +31,14 @@ export default function ComingSoon() {
           alt="coming soon"
           width={800}
           height={800}
-          className="mt-[19px]"
+          className="mt-[19px] hidden md:inline"
+        />
+        <Image
+          src="/images/coming-soon.png"
+          alt="coming soon"
+          width={520}
+          height={520}
+          className="block md:hidden md:mr-[1.5%]"
         />
       </div>
     </div>

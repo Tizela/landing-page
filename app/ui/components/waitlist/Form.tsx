@@ -11,9 +11,9 @@ export default function Form() {
   const [fullname, setFullname] = useState<string>("");
   const [phone, setPhone] = useState<string>("");
 
-  const nameRef = useRef<string>();
-  const emailRef = useRef<string>();
-  const phoneRef = useRef<string>();
+  const nameRef = useRef<HTMLInputElement | null>(null);
+  const emailRef = useRef<HTMLInputElement | null>(null);
+  const phoneRef = useRef<HTMLInputElement | null>(null);
 
   const [show, setShow] = useState(false);
 

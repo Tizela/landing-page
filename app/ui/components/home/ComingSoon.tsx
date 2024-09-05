@@ -18,7 +18,7 @@ export default function ComingSoon() {
             user-friendly app.
           </p>
 
-          <div className="flex justify-center md:justify-left items-center md:items-left">
+          <div className="flex justify-center items-center md:justify-start md:items-start">
             <button className="bg-[#fff] text-[#1142A0] rounded-[40px] py-[12px] px-[24px] gilroy font-[500] text-[13px] md:text-[16px] w-[200px]">
               Join Waitlist
             </button>

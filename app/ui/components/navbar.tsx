@@ -7,7 +7,7 @@ import Button from "./button";
 import { useState } from "react";
 import Mobilenav from "./mobilenav";
 
-import { useRouter } from "next/router";
+import { useRouter } from "next/navigation";
 export default function Navbar() {
   const [isOpen, setIsOpen] = useState<boolean>(false);
 

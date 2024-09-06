@@ -1,6 +1,8 @@
 import Image from "next/image";
+import { useRouter } from "next/navigation";
 
 export default function ComingSoon() {
+  const router = useRouter();
   return (
     <div className="bg-[#1142A0] mt-[10px] pt-[2%] text-white">
       <div className="md:flex justify-between items-center">
@@ -19,7 +21,10 @@ export default function ComingSoon() {
           </p>
 
           <div className="flex justify-center items-center md:justify-start md:items-start">
-            <button className="bg-[#fff] text-[#1142A0] rounded-[40px] py-[12px] px-[24px] gilroy font-[500] text-[13px] md:text-[16px] w-[200px]">
+            <button
+              className="bg-[#fff] text-[#1142A0] rounded-[40px] py-[12px] px-[24px] gilroy font-[500] text-[13px] md:text-[16px] w-[200px]"
+              onClick={() => router.push("/waitlist")}
+            >
               Join Waitlist
             </button>
           </div>

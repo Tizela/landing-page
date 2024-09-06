@@ -6,9 +6,12 @@ import Button from "./button";
 
 import { useState } from "react";
 import Mobilenav from "./mobilenav";
+
+import { useRouter } from "next/router";
 export default function Navbar() {
   const [isOpen, setIsOpen] = useState<boolean>(false);
 
+  const router = useRouter();
   return (
     <>
       {isOpen ? (
@@ -84,7 +87,10 @@ export default function Navbar() {
           </div>
 
           <div className="mt-[50px] flex justify-center items-center">
-            <button className="bg-[#1142A0] text-[#fff] rounded-[40px] py-[12px] px-[24px] gilroy font-[500] text-[13px] md:text-[16px] w-[200px]">
+            <button
+              className="bg-[#1142A0] text-[#fff] rounded-[40px] py-[12px] px-[24px] gilroy font-[500] text-[13px] md:text-[16px] w-[200px]"
+              onClick={() => router.push("/waitlist")}
+            >
               Join Waitlist
             </button>
           </div>

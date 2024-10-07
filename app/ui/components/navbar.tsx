@@ -21,22 +21,28 @@ export default function Navbar() {
           <Image src="/icons/logo.svg" alt="logo" width={100} height={100} />
           <div className="text-[16px] font-[500] text-white hidden lg:inline">
             <Link
-              className="mx-[6%] hover:underline active:underline"
+              className="mx-[10px] hover:underline active:underline"
               href={"/"}
             >
               Home
             </Link>
             <Link
-              className="mx-[6%] hover:underline active:underline"
+              className="mx-[10px] hover:underline active:underline"
               href={"/about"}
             >
-              About
+              About Us
             </Link>
             <Link
-              className="mx-[6%] hover:underline active:underline"
-              href={"/faqs"}
+              className="mx-[10px] hover:underline active:underline"
+              href={"/contact"}
             >
-              FAQs
+              Contact Us
+            </Link>
+            <Link
+              className="mx-[10px] hover:underline active:underline"
+              href={"/host"}
+            >
+              Become a host
             </Link>
           </div>
           <div className="hidden lg:inline">
@@ -78,10 +84,13 @@ export default function Navbar() {
                 Home
               </Link>
               <Link className="block my-3" href={"/about"}>
-                About
+                About Us
               </Link>
-              <Link className="block my-3" href={"/faqs"}>
-                FAQs
+              <Link className="block my-3" href={"/contact"}>
+                Contact Us
+              </Link>
+              <Link className="block my-3" href={"/host"}>
+                Become a host
               </Link>
             </div>
           </div>

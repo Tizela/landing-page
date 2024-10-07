@@ -1,4 +1,5 @@
-import React from "react";
+"use client";
+import React, { useState } from "react";
 import Image from "next/image";
 
 export default function Features() {
@@ -11,20 +12,25 @@ export default function Features() {
       border: "border-l-[4px] border-l-[#1143A0]",
     },
     {
-      id: 1,
+      id: 2,
       title: "Car rentals",
       description:
         "Rent the perfect car for your journey, whether it's a compact city car or a luxury vehicle. Enjoy transparent pricing, insurance options, and convenient pick-up locations.",
       border: "border-l-[4px] border-l-[#F2F4F7]",
     },
     {
-      id: 1,
+      id: 3,
       title: "Boat cruises",
       description:
         "Set sail on a memorable adventure with tailored cruises. From romantic sunset trips to private yacht experiences, we offer options for every occasion.",
       border: "border-l-[4px] border-l-[#F2F4F7]",
     },
   ];
+
+  const [activeTab, setActiveTab] = useState(1);
+  const selectTab = (tab: number) => {
+    setActiveTab(tab);
+  };
   return (
     <div>
       <div className=" mt-[40px] md:flex justify-center items-center">
@@ -45,7 +51,14 @@ export default function Features() {
       <div className="md:flex justify-between items-center px-[5%]">
         <div className="flex flex-col my-6 px-[4%]">
           {features.map((feature) => (
-            <div className={`${feature.border} w-[299px] md:w-[600px] my-1`}>
+            <div
+              className={`${
+                feature.id === activeTab
+                  ? "border-l-[4px] border-l-[#1143A0]"
+                  : "border-l-[4px] border-l-[#F2F4F7]"
+              } w-[299px] md:w-[600px] my-1`}
+              onClick={() => selectTab(feature.id)}
+            >
               <div
                 key={feature.id}
                 className="px-[6%] md:px-[5%] py-[2.5%] md:py-[1.5%] "
@@ -57,6 +70,17 @@ export default function Features() {
                   <p className="text-[#575757] text-[16px] leading-[24px] font-[500] gilroy">
                     {feature.description}
                   </p>
+
+                  <div className="font-[600] text-[#1142A0] text-[16px] gilroy flex items-center my-1">
+                    <span>Get started</span>
+                    <Image
+                      src="/icons/arrow-right.svg"
+                      alt="Arrow"
+                      width={20}
+                      height={20}
+                      className="ml-2"
+                    />
+                  </div>
                 </div>
               </div>
             </div>

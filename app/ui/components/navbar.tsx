@@ -46,7 +46,10 @@ export default function Navbar() {
             </Link>
           </div>
           <div className="hidden lg:inline">
-            <Button text="Join Waitlist" link="/waitlist" />
+            <Button text="Sign Up" link="/waitlist" />
+            <button className=" ml-1 bg-transparent text-[#fff] border-[#fff] border-[1.5px] rounded-[40px] py-[12px] px-[24px] gilroy font-[500] text-[13px] md:text-[15px]">
+              <Link href={"/waitlist"}>Log In</Link>
+            </button>
           </div>{" "}
           <div className="inline md:hidden">
             <Image
@@ -96,12 +99,20 @@ export default function Navbar() {
           </div>
 
           <div className="mt-[50px] flex justify-center items-center">
-            <button
-              className="bg-[#1142A0] text-[#fff] rounded-[40px] py-[12px] px-[24px] gilroy font-[500] text-[13px] md:text-[16px] w-[200px]"
-              onClick={() => router.push("/waitlist")}
-            >
-              Join Waitlist
-            </button>
+            <div className="">
+              <button
+                className="bg-transparent  border-[#fff] border-[1.5px] text-[#fff] rounded-[40px] py-[12px] px-[24px] gilroy font-[500] text-[13px] md:text-[16px] w-[200px]"
+                onClick={() => router.push("/waitlist")}
+              >
+                Sign Up
+              </button>
+              <button
+                className="bg-[#fff] text-[#1142A0] rounded-[40px] py-[12px] px-[24px] gilroy font-[500] text-[13px] md:text-[16px] w-[200px]"
+                onClick={() => router.push("/waitlist")}
+              >
+                Log in
+              </button>
+            </div>
           </div>
         </div>
       )}

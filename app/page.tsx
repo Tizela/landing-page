@@ -10,7 +10,6 @@ import StaysContainer from "./ui/components/home/stays/StaysContainer";
 export default function Home() {
   return (
     <div className="">
-      <Navbar />
       <Hero />
       <Offerings />
       <Destinations />

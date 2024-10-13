@@ -3,10 +3,12 @@ import React from "react";
 
 export default function WhyTizela() {
   return (
-    <div className="flex justify-between items-center my-5 mx-[5%] py-[4%]">
+    <div className="md:flex justify-between items-center my-5 mx-[5%] py-[4%]">
       <div className="">
-        <p className="font-[400] text-[40px] text-[#292929]">Why Tizela?</p>
-        <p className="gilroy font-[500] text-[16px] text-[#575757] w-[508px]">
+        <p className="text-center md:text-left font-[400] text-[40px] text-[#292929]">
+          Why Tizela?
+        </p>
+        <p className="gilroy font-[500] text-[16px] text-[#575757] md:w-[508px] text-center md:text-left my-3">
           Tizela is your go-to platform for all travel needs, combining
           accommodations, car rentals, and boat cruises in one place. We offer
           personalized recommendations, a user-friendly experience, and verified

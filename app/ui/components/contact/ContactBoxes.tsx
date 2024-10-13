@@ -4,9 +4,11 @@ import Image from "next/image";
 export default function ContactBoxes() {
   return (
     <div>
-      <div className="bg-[#1142A0] text-white pl-[7%] py-[3.5%] mr-[0.5%] w-[398px] h-full">
-        <p className="font-[400] text-[26px]">Contact Information</p>
-        <span className="gilroy font-[500] text-[#E5E7EB] text-[16px] w-[315px]">
+      <div className="bg-[#1142A0] text-white pl-[7%] py-[3.5%] mr-[0.5%] w-[98%] md:w-[398px] h-full">
+        <p className="font-[400] text-[20px] md:text-[26px]">
+          Contact Information
+        </p>
+        <span className="gilroy font-[500] text-[#E5E7EB] text-[16px] w-[207px] md:w-[315px]">
           Fill up the form and we’ll get back to you in few hours.
         </span>
 

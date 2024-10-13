@@ -30,8 +30,11 @@ export default function ContactForm() {
   };
 
   return (
-    <form onSubmit={handleSubmit} className=" br-firma h-full ml-[0.5%] ">
-      <div className="grid grid-cols-2 gap-5">
+    <form
+      onSubmit={handleSubmit}
+      className=" br-firma h-full ml-[0.5%] mt-4 md:mt-0 mx-2 md:mx-0"
+    >
+      <div className="md:grid grid-cols-2 gap-5">
         <div className="">
           <label htmlFor="name" className="block">
             First Name
@@ -97,7 +100,7 @@ export default function ContactForm() {
             required={true}
             value={user.message}
             onChange={(e) => handleChange(e)}
-            className="w-[580px] h-[200px] border-[1px] border-[#E5E7EB] rounded-[2px] py-[13px] px-[27px] text-[14px] text-[#878787] outline-[#324D96] bg-white resize-none my-[8px]"
+            className="w-[96%] md:w-[580px] h-[200px] border-[1px] border-[#E5E7EB] rounded-[2px] py-[13px] px-[27px] text-[14px] text-[#878787] outline-[#324D96] bg-white resize-none my-[8px]"
           />
         </div>
       </div>

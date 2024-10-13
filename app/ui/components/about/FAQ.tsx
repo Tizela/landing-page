@@ -5,15 +5,15 @@ import FAQItem from "./FAQItem";
 export default function FAQ() {
   const [show, setShow] = useState(false);
   return (
-    <div className="py-[3%] px-[8%]">
+    <div className="py-[1.5%] md:py-[3%] px-[4%] md:px-[8%]">
       {" "}
-      <p className="text-[#272727] font-[500] md:text-[40px] text-[24px] bg-[#fff] text-center">
+      <p className="text-[#272727] font-[500] md:text-[40px] text-[24px] bg-[#fff] text-center mt-3">
         Frequently asked questions
       </p>{" "}
       <p className="gilroy font-[500] text-[#575757] text-[16px] text-center">
         Everything you need to know about Tizela.
       </p>
-      <div className="mt-[40px] px-[9%] h-[70vh]">
+      <div className="mt-[40px] px-[6%] md:px-[9%] h-[70vh]">
         <FAQItem
           answer="Tizela is an all-in-one travel platform that provides bookings for short-stay accommodations, car rentals, and boat cruises. Our goal is to offer a seamless and personalized travel experience, all from a single, user-friendly app."
           question="What services does Tizela offer?"

@@ -6,9 +6,13 @@ export default function ComingSoon() {
   const router = useRouter();
   return (
     <div className="">
-      <div className="bg-[#1142A0] text-white flex items-center pt-[40px]">
+      <div className="bg-[#1142A0] text-white md:flex items-center pt-[40px]">
         <div className="">
-          <img src="/images/coming-soon.png" alt="" className="" />
+          <img
+            src="/images/coming-soon.png"
+            alt=""
+            className="hidden md:inline"
+          />
         </div>
         <div className="flex justify-center items-center">
           <div className="text-center">
@@ -41,7 +45,16 @@ export default function ComingSoon() {
         </div>
 
         <div className="">
-          <img src="/images/coming-soon-2.png" alt="" className="" />
+          <img
+            src="/images/coming-soon-2.png"
+            alt=""
+            className="hidden md:inline"
+          />
+          <img
+            src="/images/coming-soon.png"
+            alt=""
+            className="md:hidden block"
+          />
         </div>
       </div>
     </div>

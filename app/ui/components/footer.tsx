@@ -15,16 +15,18 @@ export default function Footer() {
   return (
     <div>
       <div className="mt-[20px] bg-[#000000] py-[2%] px-[5%]">
-        <div className="flex justify-between items-center mb-[25px]">
+        <div className="md:flex justify-between items-center mb-[25px]">
           <div className="">
             <div className=" my-[10px]">
-              <Image
-                src="/icons/logo.svg"
-                alt="footer"
-                width={150}
-                height={150}
-                className="md:hidden"
-              />
+              <div className="flex justify-center items-center">
+                <Image
+                  src="/icons/logo.svg"
+                  alt="footer"
+                  width={150}
+                  height={150}
+                  className="md:hidden"
+                />
+              </div>
               <Image
                 src="/icons/logo.svg"
                 alt="footer"
@@ -33,11 +35,11 @@ export default function Footer() {
                 className="hidden md:block"
               />
             </div>
-            <p className="gilroy font-[500] text-[12px] text-[#ffffff9d] w-[321px]">
+            <p className="text-center md:text-left gilroy font-[500] text-[12px] text-[#ffffff9d] w-[321px]">
               Hello, we are moduscreate. Our goal is to translate the positive
               effects from revolutionizing how companies.
             </p>
-            <div className="flex items-center mt-3">
+            <div className="flex items-center my-4 md:mt-3 ">
               <Image
                 src="/icons/playstore.svg"
                 alt="Google Playstore"
@@ -55,7 +57,7 @@ export default function Footer() {
           </div>
 
           <div className="">
-            <div className="gilroy text-[#ffffff9d] text-[14px] font-[500]">
+            <div className="flex justify-center items-center md:block gilroy text-[#ffffff9d] text-[14px] font-[500]">
               <Link className="mx-3" href="/about">
                 About Us
               </Link>
@@ -66,7 +68,7 @@ export default function Footer() {
                 Become a host
               </Link>
             </div>
-            <div className="flex justify-end items-center mt-[5px]">
+            <div className="flex justify-center md:justify-end items-center mt-[5px]">
               {data.map((item) => (
                 <div className=" my-[10px]">
                   <Image
@@ -83,15 +85,17 @@ export default function Footer() {
         </div>
 
         <hr className="border-[#ffffff9d]" />
-        <div className="text-[#ffffff9d] gilroy flex justify-between items-center my-4">
-          <p className="font-[500] text-[14px]">
-            © 2024 Tizela. All rights reserved.{" "}
-          </p>
+        <div className="flex justify-center items-center md:block">
+          <div className="text-[#ffffff9d] gilroy md:flex justify-between items-center my-4">
+            <p className="font-[500] text-[14px]">
+              © 2024 Tizela. All rights reserved.{" "}
+            </p>
 
-          <div className="font-[500] text-[14px]">
-            <span className="mx-3">Terms</span>
-            <span className="mx-3">Privacy</span>
-            <span className="mx-3">Cookies</span>
+            <div className="font-[500] text-[14px] mt-1">
+              <span className="mx-3">Terms</span>
+              <span className="mx-3">Privacy</span>
+              <span className="mx-3">Cookies</span>
+            </div>
           </div>
         </div>
       </div>

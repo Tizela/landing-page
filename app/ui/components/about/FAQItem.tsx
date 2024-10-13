@@ -23,7 +23,9 @@ export default function FAQItem({ answer, question }: Props) {
     <div className="">
       <div className="gilroy">
         <div className="flex justify-between items-center">
-          <p className="font-[600] text-[18px] text-[#272727]">{question}</p>
+          <p className="font-[500] md:font-[600] text-[16px] md:text-[18px] text-[#272727]">
+            {question}
+          </p>
           <Image
             src={icon}
             alt=""

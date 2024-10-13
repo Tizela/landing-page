@@ -22,7 +22,7 @@ export default function ItemCard({
 }: CardProps) {
   return (
     <>
-      <div className="w-[364px]">
+      <div className="w-[350px] md:w-[364px]">
         {/* <Image
           src={image}
           alt={name}

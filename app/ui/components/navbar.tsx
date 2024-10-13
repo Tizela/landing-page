@@ -98,20 +98,22 @@ export default function Navbar() {
             </div>
           </div>
 
-          <div className="mt-[50px] flex justify-center items-center">
-            <div className="">
-              <button
-                className="bg-transparent  border-[#fff] border-[1.5px] text-[#fff] rounded-[40px] py-[12px] px-[24px] gilroy font-[500] text-[13px] md:text-[16px] w-[200px]"
-                onClick={() => router.push("/waitlist")}
-              >
-                Sign Up
-              </button>
-              <button
-                className="bg-[#fff] text-[#1142A0] rounded-[40px] py-[12px] px-[24px] gilroy font-[500] text-[13px] md:text-[16px] w-[200px]"
-                onClick={() => router.push("/waitlist")}
-              >
-                Log in
-              </button>
+          <div className="ml-[70px] mt-[50px] flex justify-center items-center">
+            <div className="flex justify-center items-center">
+              <div className="">
+                <button
+                  className="bg-[#1142A0]  text-[#fff] rounded-[40px] py-[12px] px-[24px] gilroy font-[500] text-[13px] md:text-[16px] w-[200px] my-2"
+                  onClick={() => router.push("/waitlist")}
+                >
+                  Sign Up
+                </button>
+                <button
+                  className="bg-[#fff] border-[1.5px] border-[#324D96] text-[#1142A0] rounded-[40px] py-[12px] px-[24px] gilroy font-[500] text-[13px] md:text-[16px] w-[200px]"
+                  onClick={() => router.push("/waitlist")}
+                >
+                  Log in
+                </button>
+              </div>
             </div>
           </div>
         </div>

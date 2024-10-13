@@ -6,7 +6,7 @@ export default function page() {
   return (
     <div>
       <div className="my-[5%]">
-        <p className="text-[56px] text-center font-[400] text-[#1B1B1B]">
+        <p className="text-[32px] md:text-[56px] text-center font-[400] text-[#1B1B1B]">
           Contact Us
         </p>
         <div className="flex justify-center items-center">

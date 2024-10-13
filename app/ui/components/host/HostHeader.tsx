@@ -5,12 +5,12 @@ export default function HostHeader() {
   return (
     <div className="bg-[#1142A0] text-white pt-[4%]">
       <div className="flex justify-center items-center">
-        <p className="text-[50px] w-[911px]  font-[400] text-center">
+        <p className="text-[32px] md:text-[50px] w-[314px] md:w-[911px]  font-[400] text-center">
           List your apartments, car & boat, profitably on Tizela.
         </p>
       </div>
       <div className="flex justify-center items-center">
-        <span className="gilroy text-[16px] font-[500] text-center w-[552px] block">
+        <span className="gilroy text-[16px] font-[500] text-center w-[327px] md:w-[552px] block">
           Experience the convenience and luxury of our well-curated services. We
           offer the best options tailored to your desires.{" "}
         </span>

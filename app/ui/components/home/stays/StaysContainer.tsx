@@ -100,7 +100,7 @@ export default function StaysContainer() {
         See avaliable location
       </p>
 
-      <div className="flex items-center my-[10px]">
+      <div className="slider md:flex items-center my-[10px]">
         {locations.map((location) => (
           <div className="" onClick={() => selectTab(location.id)}>
             <p
@@ -116,8 +116,8 @@ export default function StaysContainer() {
         ))}
       </div>
 
-      <div className="flex justify-center items-center  my-[2%]">
-        <div className="grid grid-cols-3 gap-[30px] ">
+      <div className="flex justify-center items-center mx-[3%] my-[2%]">
+        <div className="md:grid grid-cols-3 gap-[30px] ">
           {stays.map((stay) => (
             <ItemCard
               key={stay.id}

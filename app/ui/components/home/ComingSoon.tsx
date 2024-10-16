@@ -22,8 +22,7 @@ export default function ComingSoon() {
             </p>
             <p className="text-center font-[500] text-[16px] gilroy leading-[24px] my-3 mx-3 md:mx-0">
               {" "}
-              Lorem ipsum dolor sit amet consectetur. Dolor porttitor amet morbi
-              ultricies ullamcorper lectus tincidunt ut semper.
+              Plan, book and manage your trips all in one place
             </p>
 
             <div className="flex justify-center items-center">

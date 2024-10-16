@@ -13,7 +13,21 @@ export default function Hero() {
             Experience the convenience and luxury of our well-curated services.
             We offer the best options tailored to your desires.{" "}
           </p>
-          <Button text="Join Waitlist" link="/waitlist" />
+          <div className="flex justify-center items-center">
+            <Image
+              src="/icons/playstorewhite.svg"
+              alt="Download our app"
+              width={160}
+              height={50}
+            />
+            <Image
+              src="/icons/appstorewhite.svg"
+              alt="Download our app"
+              width={160}
+              height={50}
+              className="ml-1.5"
+            />
+          </div>
         </div>
         <div className="hidden md:flex mt-[15px] md:mt-0 mb-[10px] md:mb-0">
           <div className="mr-[16px] md:relative">
@@ -66,6 +80,18 @@ export default function Hero() {
         </div>
 
         {/* <Image src="/icons/overlay.svg" alt="hero" fill className="" /> */}
+        <img
+          src="/icons/star.svg"
+          className="w-[50px] h-[50px] md:full md:h-full absolute right-[46.5%] top-[14%] md:right-[28.5%] md:top-[9.55%]"
+        />
+        <img
+          src="/icons/star.svg"
+          className="w-[50px] h-[50px] md:full md:h-full absolute right-[46.5%] top-[14%] md:right-[28.5%] md:top-[9.55%]"
+        />
+
+        <div className="rounded-full header-bg"></div>
+        <div className="rounded-full header-bg"></div>
+        <div className="rounded-full header-bg"></div>
       </div>
     </div>
   );

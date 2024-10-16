@@ -103,3 +103,16 @@
 .slider::-webkit-scrollbar {
   display: none;
 }
+
+.header-bg {
+  background: linear-gradient(
+    105.96deg,
+    #6cefef 0%,
+    #4648ff 65.07%,
+    #712fff 100%
+  );
+  width: 319.87px;
+  height: 215px;
+  backdrop-filter: blur(10px); /* Adjust the blur value as needed */
+  -webkit-backdrop-filter: blur(10px); /* For Safari support */
+}

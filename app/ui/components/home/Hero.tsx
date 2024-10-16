@@ -3,7 +3,7 @@ import Button from "../button";
 
 export default function Hero() {
   return (
-    <div className="bg-[#1142A0] w-full">
+    <div className="bg-[#1142A0] w-full relative">
       <div className=" bg-[#1142A0] w-full px-[6%] md:px-[5%] lg:flex py-[4%] md:py-[2%]">
         <div className="">
           <p className="font-[400] text-[32px] md:font-[500] md:text-[56px] text-white w-[286px] md:w-[489px]">
@@ -82,17 +82,17 @@ export default function Hero() {
         {/* <Image src="/icons/overlay.svg" alt="hero" fill className="" /> */}
         <img
           src="/icons/star.svg"
-          className="w-[50px] h-[50px] md:full md:h-full absolute right-[46.5%] top-[14%] md:right-[28.5%] md:top-[9.55%]"
+          className="w-[50px] h-[50px] absolute right-[44.5%] top-[72.5%] md:hidden"
         />
         <img
           src="/icons/star.svg"
-          className="w-[50px] h-[50px] md:full md:h-full absolute right-[46.5%] top-[14%] md:right-[28.5%] md:top-[9.55%]"
+          className="w-[70px] h-[70px] absolute right-[29%] md:top-[34%] hidden md:inline"
         />
-
-        <div className="rounded-full header-bg"></div>
-        <div className="rounded-full header-bg"></div>
-        <div className="rounded-full header-bg"></div>
       </div>
+
+      <div className="hidden md:block absolute bottom-0 left-0 blur-2xl w-[73.61px] h-[101px] rounded-full header-bg"></div>
+      <div className="hidden md:block absolute blur-2xl bottom-[90px] left-[380px] w-[203px] h-[198.8px] rounded-l-full header-bg opacity-[0.4] z-[]"></div>
+      <div className="hidden md:block absolute blur-2xl w-[119.87px] h-[115px] rounded-full header-bg right-0 bottom-0"></div>
     </div>
   );
 }
